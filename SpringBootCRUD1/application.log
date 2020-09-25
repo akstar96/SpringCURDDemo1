@@ -1,0 +1,56 @@
+2020-09-25 00:00:50.921  WARN 18936 --- [http-nio-8082-exec-3] com.Controller.HomeController            : In Add Manger Addinng Emp in data Base
+2020-09-25 00:00:50.967  INFO 18936 --- [http-nio-8082-exec-3] com.Controller.HomeController            : In main controller Adding Emp
+2020-09-25 00:02:14.304  WARN 18936 --- [http-nio-8082-exec-5] com.Controller.HomeController            : In Add Manger Addinng Emp in data Base
+2020-09-25 00:02:14.358  INFO 18936 --- [http-nio-8082-exec-5] com.Controller.HomeController            : In main controller Adding Emp
+2020-09-25 00:03:01.453  INFO 18936 --- [RMI TCP Connection(34)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-09-25 00:03:02.399  INFO 18936 --- [RMI TCP Connection(34)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-25 00:03:02.401  INFO 18936 --- [RMI TCP Connection(34)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-09-25 00:03:02.424  INFO 18936 --- [RMI TCP Connection(34)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 00:03:02.627  WARN 18936 --- [RMI TCP Connection(34)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-09-25 00:03:02.629  INFO 18936 --- [RMI TCP Connection(34)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2020-09-25 00:03:02.681  INFO 18936 --- [RMI TCP Connection(34)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2020-09-25 01:00:04.447  INFO 27480 --- [restartedMain] com.SpringBootCrud1Application           : Starting SpringBootCrud1Application on DESKTOP-LDFNH5C with PID 27480 (C:\Users\Ganesh\Documents\workspace-sts-3.9.11.RELEASE\SpringBootCRUD1\target\classes started by Ganesh in C:\Users\Ganesh\Documents\workspace-sts-3.9.11.RELEASE\SpringBootCRUD1)
+2020-09-25 01:00:04.450  INFO 27480 --- [restartedMain] com.SpringBootCrud1Application           : No active profile set, falling back to default profiles: default
+2020-09-25 01:00:04.568  INFO 27480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-25 01:00:04.568  INFO 27480 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-25 01:00:07.659  INFO 27480 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-09-25 01:00:08.528  INFO 27480 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 852ms. Found 1 JPA repository interfaces.
+2020-09-25 01:00:09.808  INFO 27480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2020-09-25 01:00:09.824  INFO 27480 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-09-25 01:00:09.825  INFO 27480 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-25 01:00:10.479  INFO 27480 --- [restartedMain] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2020-09-25 01:00:10.485  INFO 27480 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-09-25 01:00:10.485  INFO 27480 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5916 ms
+2020-09-25 01:00:10.792  INFO 27480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-09-25 01:00:11.389  INFO 27480 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-09-25 01:00:11.455  INFO 27480 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-09-25 01:00:12.054  INFO 27480 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-25 01:00:12.547  INFO 27480 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-25 01:00:12.792  WARN 27480 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-25 01:00:12.837  INFO 27480 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-25 01:00:13.632  INFO 27480 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-25 01:00:14.007  INFO 27480 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-09-25 01:00:15.821  INFO 27480 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-25 01:00:15.842  INFO 27480 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-25 01:00:15.908  INFO 27480 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-09-25 01:00:16.055  INFO 27480 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-25 01:00:16.239  INFO 27480 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2020-09-25 01:00:16.241  INFO 27480 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-09-25 01:00:17.016  INFO 27480 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-09-25 01:00:17.055  INFO 27480 --- [restartedMain] com.SpringBootCrud1Application           : Started SpringBootCrud1Application in 13.254 seconds (JVM running for 14.967)
+2020-09-25 01:00:17.068  WARN 27480 --- [restartedMain] com.SpringBootCrud1Application           : you are under servilance
+2020-09-25 01:00:44.957  INFO 27480 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-25 01:00:44.961  INFO 27480 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-09-25 01:00:44.981  INFO 27480 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2020-09-25 01:00:45.223  WARN 27480 --- [http-nio-8082-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize instance of `com.Model.Emp` out of START_ARRAY token; nested exception is com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize instance of `com.Model.Emp` out of START_ARRAY token
+ at [Source: (PushbackInputStream); line: 2, column: 1]]
+2020-09-25 01:07:11.929  WARN 27480 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m27s37ms120µs200ns).
+2020-09-25 10:36:57.863  WARN 27480 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8h43m15s835ms624µs300ns).
+2020-09-25 11:09:24.032  WARN 27480 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=32m19s858ms281µs300ns).
+2020-09-25 12:07:20.231  INFO 27480 --- [RMI TCP Connection(123)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-09-25 12:07:22.463  INFO 27480 --- [RMI TCP Connection(123)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-25 12:07:22.634  INFO 27480 --- [RMI TCP Connection(123)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-09-25 12:07:23.095  INFO 27480 --- [RMI TCP Connection(123)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-25 12:07:23.660  WARN 27480 --- [RMI TCP Connection(123)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-09-25 12:07:23.666  INFO 27480 --- [RMI TCP Connection(123)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-09-25 12:07:23.733  INFO 27480 --- [RMI TCP Connection(123)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
